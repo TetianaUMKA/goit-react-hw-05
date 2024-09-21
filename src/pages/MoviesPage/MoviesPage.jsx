@@ -1,3 +1,7 @@
 export default function MoviesPage() {
-  return;
+  return (
+    <div>
+      <button type="button">Go back</button>
+    </div>
+  );
 }
