@@ -10,7 +10,7 @@ const getNavLinkClass = (props) => {
 export default function Navigation() {
   return (
     <div className={css.nav}>
-      <NavLink to="/" className={getNavLinkClass}>
+      <NavLink to="/home" className={getNavLinkClass}>
         Home
       </NavLink>
       <NavLink to="/movies" className={getNavLinkClass}>
