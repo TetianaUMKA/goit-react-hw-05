@@ -1,0 +1,26 @@
+.container {
+  position: relative;
+  padding: 80px 10px;
+}
+
+.message {
+  font-size: 36px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.link {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 6px 10px;
+  color: #0e47f4ee;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 4px;
+}
+
+.link:hover,
+.link:focus {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
