@@ -1,7 +1,15 @@
+import { Link } from "react-router-dom";
+import { IoArrowBackSharp } from "react-icons/io5";
+
+import css from "./MoviesPage.module.css";
+
 export default function MoviesPage() {
   return (
     <div>
-      <button type="button">Go back</button>
+      <div className={css.link}>
+        <IoArrowBackSharp />
+        <Link to="/home">Go back</Link>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,14 @@
+.link {
+  position: absolute;
+  bottom: 60px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 18px;
+  color: #0e47f4ee;
+}
+
+.link:hover,
+.link:focus {
+  font-weight: 500;
+}
